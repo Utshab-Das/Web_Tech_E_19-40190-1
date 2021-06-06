@@ -6,6 +6,7 @@
 <body>
     <h4> * Denotes Requrired Information </h4>
     <h4  > Donation > Confirmation > Thank you </h4>
+<2h2>Donor Information</h2>
     <form> 
       <div>
         <label>First Name* : </label>  <input type = "text">
@@ -25,27 +26,34 @@
      <div>
         <label>City* : </label>  <input type = "text">
      </div><br>
-     <div>
-        <label>State* : </label>  <input type = "text">
-        <select id="State " name=" Town" size="3">
-          <option> Select a State </option>
-            <option> Misigan </option>
-            <option> Washington </option>
-            <option> Texas</option>
-         </select>
-           </div><br>
+     <p>
+      <label for="">State<i>*</i></label>
+      <select name="state" id="" required>
+          <option value="" disabled selected hidden>Select a State</option>
+          <option value="Texas">Texas</option>
+          <option value=" Washington">Washington</option>
+          <option value=" Michigan">Michigan</option>
+          <option value=" Pencilvania"> Pencilvania</option>
+      </select>          
+      
+      <br><br>
+  </p>
            <div>
             <label> Zip Code* : </label>  <input type = "text">
          </div><br>
-         <div>
-            <label>Country* : </label>  <input type = "text">
-            <select id=" Country " name=" Town" size="3">
-              <option> Select a Country </option>
-                <option> Bangladesh </option>
-                <option> India  </option>
-                <option> China</option>
-             </select>
-               </div><br>
+      
+         <p>
+            <label for="">Country<i>*</i></label>
+            <select name="country" id="" required>
+                <option value="" disabled selected hidden>Select a Country</option>
+                <option value="Bangladersh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="China">China </option>
+                <option value=" Russia"> Russia </option>
+            </select>         
+            
+            <br><br>
+        </p>
                <div>
                   <label> Phone : </label>  <input type = "text">
                </div><br>
@@ -77,7 +85,7 @@
                   <label> For </label>  <input type = "text">
                   <label> Months </label>  <input type = "text">
                </div><br>
-               <h2> Honorarium And Memorial Donation Information </h2>
+               <h2>Honorarum and Memorial Donation Information</h2>
                <div>
                   <label> I would like to make this donation : </label>
                     <input type = "radio"  value = "To Honour"> To Honour<br>
@@ -96,19 +104,24 @@
                   <div>
                      <label>City : </label>  <input type = "text">
                   </div><br>
-                  <div>
-                     <label>State* : </label>  <input type = "text">
-                     <select id="State " name=" Town" size="3">
-                       <option> Select a State </option>
-                         <option> Misigan </option>
-                         <option> Washington </option>
-                         <option> Texas</option>
-                      </select>
-                        </div><br>
+                  <p>
+                     <label for="">State<i>*</i></label>
+                     <select name="state" id="" required>
+                         <option value="" disabled selected hidden>Select a State</option>
+                         <option value="Texas">Texas</option>
+                         <option value=" Washington">Washington</option>
+                         <option value=" Michigan">Michigan</option>
+                         <option value=" Pencilvania"> Pencilvania</option>
+                     </select>          
+                     
+                     <br><br>
+                 </p>
+                    
+
                         <div>
                            <label> Zip : </label>  <input type = "text">
                         </div><br>
-                        <h2>Additional Information </h2>
+                        <h2>Additional Information</h2>
                         <h3>Please enter your name, company or organaization as you would to appear in our publications </h3>
                                       
                         <div>
@@ -147,16 +160,17 @@
                            <div>
                            <input type="checkbox"  value=" Opinion">
                                   <label> I would like to inform you </label>
-                                    
+                     
                                  </div><br>
                                  <div>
                                     <input type="submit" value="Reset">
                                     <input type="submit" value="Continue"></div><br>
 
-                <h4> Donate Online with confidence.You are on Secure server. If you have any problems or questions please contact. </h4>
+                                    <div><img src="usd.png" alt="" width="20" height="20"> Donate online with confidence. You are a secure server</div><br>
+                                    <span>If you have any problem or ques , Please contact <a href="#">Support</a></span>
                 
 
 
 
-       </body>
+                                 </body>
              </html>
